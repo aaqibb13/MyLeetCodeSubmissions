@@ -1,3 +1,5 @@
+# Checking whether a number is Palindrome or not with 32-bit max_int = (2^31 - 1) constraint 
+
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         rev_x = 0
