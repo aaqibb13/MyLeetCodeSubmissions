@@ -13,3 +13,6 @@ This repository contains my Leetcode submissions. The Submissions will further b
 - [Addition of two elements of a List adding upto the target value](Easy/twosum.py)
 - [Square root of a non-negative integer](sqrtofanumber.py)
 - [Powers of a number](pow.py)
+
+## Medium:
+- [Calculate `a**b mod n`](superpow.py)
