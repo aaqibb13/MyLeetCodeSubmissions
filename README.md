@@ -11,3 +11,4 @@ This repository contains my Leetcode submissions. The Submissions will further b
 - [Returning whether a number is a Palindrome](Easy/palindromenumber.py)
 - [Reversing an Integer (without using a list)](Easy/reverseinteger.py)
 - [Addition of two elements of a List adding upto the target value](Easy/twosum.py)
+- [Square root of a non-negative integer](sqrtofanumber.py)
