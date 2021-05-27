@@ -12,7 +12,8 @@ This repository contains my Leetcode submissions. The Submissions will further b
 - [Reversing an Integer (without using a list)](Easy/reverseinteger.py)
 - [Addition of two elements of a List adding upto the target value](Easy/twosum.py)
 - [Square root of a non-negative integer](Easy/sqrtofanumber.py)
-- [Number of 1's in an unsigned integer](numberof1bits.py)
+- [Number of 1's in an unsigned integer](Easy/numberof1bits.py)
+
 ## Medium:
 - [Powers of a number](Medium/pow.py)
 - [Calculate `a**b mod n`](Medium/superpow.py)
