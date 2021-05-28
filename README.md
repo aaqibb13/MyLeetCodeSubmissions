@@ -14,6 +14,9 @@ This repository contains my Leetcode submissions. The Submissions will further b
 - [Square root of a non-negative integer](Easy/sqrtofanumber.py)
 - [Number of 1's in an unsigned integer](Easy/numberof1bits.py)
 - [Binary Addition of two numbers](Easy/binaryaddition.py)
+- [Powers of Two](Easy/poweroftwo.py)
+- [Powers of Three](Easy/powerofthree.py)
+- [Powers of Four](Easy/poweroffour.py)
 ## Medium:
 - [Powers of a number](Medium/pow.py)
 - [Calculate `a**b mod n`](Medium/superpow.py)
