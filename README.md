@@ -17,6 +17,9 @@ This repository contains my Leetcode submissions. The Submissions will further b
 - [Powers of Two](Easy/poweroftwo.py)
 - [Powers of Three](Easy/powerofthree.py)
 - [Powers of Four](Easy/poweroffour.py)
+- [Missing Number](Easy/missingnumber.py)
+- [Reading tenth line from a file using bash](Easy/readfile.bash)
+
 ## Medium:
 - [Powers of a number](Medium/pow.py)
 - [Calculate `a**b mod n`](Medium/superpow.py)
