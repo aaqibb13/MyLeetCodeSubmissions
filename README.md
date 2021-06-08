@@ -18,7 +18,7 @@ This repository contains my Leetcode submissions. The Submissions will further b
 - [Powers of Three](Easy/powerofthree.py)
 - [Powers of Four](Easy/poweroffour.py)
 - [Missing Number](Easy/missingnumber.py)
-- [Reading tenth line from a file using bash](Easy/readfile.bash)
+- [Reading tenth line from a file using bash](Easy/readfile.sh)
 
 ## Medium:
 - [Powers of a number](Medium/pow.py)
