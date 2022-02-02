@@ -21,15 +21,23 @@
 
 func search(nums []int, target int) int {
     indexVal := -1
-    for index, value := range nums {
-        if value == target {
-            indexVal = index
-            break
-        }
-    }
-    if indexVal == -1 {
-        return -1
-    } else {
-        return indexVal
-    }
+    midLen := int(math.Floor(float64(len(nums) / 2)))
+	if target > nums[midLen] {
+		for i := midLen; i < len(nums); i++ {
+			if target == nums[i] {
+				indexVal = i
+				break
+			}
+		}
+	} else if target < nums[midLen] {
+		for i := 0; i < midLen; i++ {
+			if target == nums[i] {
+				indexVal = i
+				break
+			}
+		}
+	} else if target == nums[midLen] {
+		indexVal = midLen
+	}
+	return indexVal
 }
