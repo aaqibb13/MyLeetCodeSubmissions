@@ -20,24 +20,17 @@
 */
 
 func search(nums []int, target int) int {
-    indexVal := -1
-    midLen := int(math.Floor(float64(len(nums) / 2)))
-	if target > nums[midLen] {
-		for i := midLen; i < len(nums); i++ {
-			if target == nums[i] {
-				indexVal = i
-				break
-			}
+    low := 0
+	high := len(nums) - 1
+	for low <= high {
+		mid := low + (high-low)/2
+		if target == nums[mid] {
+			return mid
+		} else if target < nums[mid] {
+			high = mid - 1
+		} else if target > nums[mid] {
+			low = mid + 1
 		}
-	} else if target < nums[midLen] {
-		for i := 0; i < midLen; i++ {
-			if target == nums[i] {
-				indexVal = i
-				break
-			}
-		}
-	} else if target == nums[midLen] {
-		indexVal = midLen
 	}
-	return indexVal
+    return -1
 }
