@@ -29,3 +29,7 @@ This repository contains my Leetcode submissions. The Submissions will further b
 1. [Linear Search](Daily_Problems/linear_search_solution.go)
 2. [Binary Search](Daily_Problems/prob_1_binary_search.go)
 3. [Search Insert Position using Linear Search](Daily_Problems/search_insert_position_with_linear_search.go)
+
+## leetcode-study-plan-75
+1. [Basic Two Sum](leetcode-study-plan-75/basictwosum.go)
+2. [Contains Duplicate](leetcode-study-plan-75/containsDuplicate.go) 
