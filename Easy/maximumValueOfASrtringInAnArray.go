@@ -44,6 +44,6 @@ func maximumValue(strs []string) int {
 			result = append(result, int(value))
 		}
 	}
-    sort.Ints(result)
+    	sort.Ints(result)
 	return result[len(strs)-1]
 }
