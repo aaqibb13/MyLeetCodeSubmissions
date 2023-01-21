@@ -39,17 +39,17 @@
 
 
 func removeDuplicates(nums []int) int {
-	count := 0
-	hashMap := map[int]int{}
-	for i := 0; i < len(nums); i++ {
-		if _, ok := hashMap[nums[i]]; !ok {
-			hashMap[nums[i]] = i
-			nums[i] = nums[i]
-			count += 1
-		} else {
-			nums[i] = 9999999
-		}
-	}
-	sort.Ints(nums)
-	return count
+    count := 0
+    hashMap := map[int]int{}
+    for i := 0; i < len(nums); i++ {
+      if _, ok := hashMap[nums[i]]; !ok {
+          hashMap[nums[i]] = i
+          nums[i] = nums[i]
+          count += 1
+      } else {
+          nums[i] = 9999999
+      }
+    }
+    sort.Ints(nums)
+    return count
 }
