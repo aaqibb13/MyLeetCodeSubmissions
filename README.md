@@ -47,6 +47,7 @@ This repository contains my Leetcode submissions. The Submissions will further b
 1. [Majority Element](Easy/majorityElement.go)
 1. [Find Lucky Integer in an Array](Easy/findLuckyIntegerInAnArray.go)
 1. [Count Integers With Even Digit Sum](Easy/integersWithEvenDigitSum.go)
+1. [Base 7](Easy/base7.go)
 
 ## Medium:
 1. [Powers of a number](Medium/pow.py)
