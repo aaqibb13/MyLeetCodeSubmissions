@@ -1,5 +1,5 @@
 # MyLeetCodeSubmissions
-This repository contains my Leetcode submissions. The Submissions will further be categorized based on their difficulty level:
+This repository contains my Leetcode submissions. The Submissions are further categorized based on their difficulty level:
 - **[Easy](Easy)**, 
 - **[Medium](Medium)**
 - **[Hard](Hard)**
