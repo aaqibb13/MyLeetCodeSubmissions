@@ -64,4 +64,4 @@ This repository contains my Leetcode submissions. The Submissions are further ca
 
 ## leetcode-study-plan-75
 1. [Basic Two Sum](leetcode-study-plan-75/basictwosum.go)
-2. [Contains Duplicate](leetcode-study-plan-75/containsDuplicate.go) 
+2. [Contains Duplicate](leetcode-study-plan-75/containsDuplicate.go)
